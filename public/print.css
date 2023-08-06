@@ -1,0 +1,28 @@
+/* print.css */
+
+/* Hide unnecessary elements for printing */
+button {
+    display: none;
+  }
+  
+  /* Adjust margins and other styles for printing */
+  .invoice-generator {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  
+  .dateNum,
+  .mb-3,
+  .btn {
+    display: none;
+  }
+  
+  table th,
+  table td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+  }
+  
