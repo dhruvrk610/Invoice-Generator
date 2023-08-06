@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
 
-
+body{
+ 
+  font-family: 'Victor Mono', monospace;
+  background-color: #244158; 
+}
 .center-container {
   display: flex;
   justify-content: center;
-  font-family: 'Victor Mono', monospace;
-  background-color: #244158; 
-  padding:22px 0;
+  height: 100vh;
+ 
 }
 
 .invoice-generator {
