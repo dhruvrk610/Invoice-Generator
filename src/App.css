@@ -5,9 +5,10 @@
   display: flex;
   justify-content: center;
   font-family: 'Victor Mono', monospace;
-  height: 100vh;
-  margin: 0 10px;
   background-color: #244158;
+  
+ 
+  align-items: center;
 }
 
 .invoice-generator {
