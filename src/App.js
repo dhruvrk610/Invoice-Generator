@@ -119,9 +119,15 @@ const InvoiceGenerator = () => {
     // Clear the items state (empty the invoice)
     setItems([]);
 
+    const today = new Date();
+    const day = today.getDate().toString().padStart(2, '0');
+    const month = (today.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-indexed, so we add 1.
+    const year = today.getFullYear();
+    const formattedDate = `${day}-${month}-${year}`;
+
     const opt = {
       margin: 0,
-      filename: `invoice#${invoiceNumber}.pdf`,
+      filename: `invoice#${invoiceNumber}_(${formattedDate}).pdf`,
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: { scale: 2 },
       jsPDF: { unit: 'mm', format: 'junior-legal', orientation: 'portrait', precision: '2' },
