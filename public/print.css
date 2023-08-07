@@ -1,11 +1,8 @@
-/* print.css */
 
-/* Hide unnecessary elements for printing */
 button {
     display: none;
   }
   
-  /* Adjust margins and other styles for printing */
   .invoice-generator {
     margin: 0;
     box-shadow: none;
@@ -23,5 +20,9 @@ button {
     padding: 8px;
     text-align: center;
   }
-  
+  .center-container {
+    display: flex;
+   
+  }
+ 
   

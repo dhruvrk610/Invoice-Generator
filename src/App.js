@@ -178,7 +178,7 @@ const InvoiceGenerator = () => {
   return (
     <>
       <div className="center-container">
-        <div className="invoice-generator" style={{ margin: 'auto' }} ref={pdfRef}>
+        <div className="invoice-generator" ref={pdfRef}>
           <Header />
           <div className='dateNum container my-2' style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div>
