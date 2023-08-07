@@ -24,5 +24,8 @@ button {
     display: flex;
    
   }
+  @page {
+    size: auto;
+  }
  
   
